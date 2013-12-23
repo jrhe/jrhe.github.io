@@ -34,6 +34,10 @@ page "/feed.xml", layout: false
 
 require 'slim'
 
+activate :disqus do |d|
+  d.shortname = 'jrhe'
+end
+
 ###
 # Compass
 ###
