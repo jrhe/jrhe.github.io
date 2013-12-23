@@ -31,6 +31,9 @@ end
 
 page "/feed.xml", layout: false
 
+
+require 'slim'
+
 ###
 # Compass
 ###
