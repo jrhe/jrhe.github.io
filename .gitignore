@@ -4,9 +4,6 @@
 # or operating system, you probably want to add a global ignore instead:
 # git config --global core.excludesfile ~/.gitignore_global
 
-# Ignore bundler config
-/.bundle
-
 # Ignore the build directory
 /build
 
@@ -15,3 +12,21 @@
 
 # Ignore .DS_store file
 .DS_Store
+*.gem
+*.rbc
+.bundle
+.config
+coverage
+InstalledFiles
+lib/bundler/man
+pkg
+rdoc
+spec/reports
+test/tmp
+test/version_tmp
+tmp
+
+# YARD artifacts
+.yardoc
+_yardoc
+doc/
