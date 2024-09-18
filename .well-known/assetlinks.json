@@ -3,7 +3,7 @@
     "relation": ["delegate_permission/common.handle_all_urls"],
     "target": {
       "namespace": "android_app",
-      "package_name": "com.jrhe.gritapp",
+      "package_name": "com.jrhe.grit",
       "sha256_cert_fingerprints": ["<sha256_cert_fingerprint>"]
     }
   }
